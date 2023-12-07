@@ -1,0 +1,18 @@
+---
+
+# squid port
+squid_port: 3128
+
+# list of packages
+squid_packages:
+  - squid
+
+# services
+squid_services:
+  - squid
+
+# Main configuration file
+squid_conf: /etc/squid/squid.conf
+
+# UNIX group
+squid_group: squid

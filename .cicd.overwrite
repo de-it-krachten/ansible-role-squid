@@ -1,0 +1,13 @@
+---
+
+# Generic
+generic:
+  role: ansible-role-squid
+  role_short: squid
+  role_description: |
+    Installs & managed squid proxy 
+  collections: []
+
+molecule:
+  requirements:
+    roles_extra: []
