@@ -13,6 +13,3 @@ squid_services:
 
 # Main configuration file
 squid_conf: /etc/squid/squid.conf
-
-# UNIX group
-squid_group: squid
