@@ -57,9 +57,24 @@ squid_services:
 
 # Main configuration file
 squid_conf: /etc/squid/squid.conf
+</pre></code>
 
+### defaults/family-RedHat.yml
+<pre><code>
 # UNIX group
 squid_group: squid
+</pre></code>
+
+### defaults/family-Suse.yml
+<pre><code>
+# UNIX group
+squid_group: squid
+</pre></code>
+
+### defaults/family-Debian.yml
+<pre><code>
+# UNIX group
+squid_group: root
 </pre></code>
 
 
