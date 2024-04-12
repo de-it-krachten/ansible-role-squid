@@ -1,0 +1,7 @@
+---
+
+- name: Install squid packages
+  ansible.builtin.package:
+    name: "{{ squid_packages }}"
+    state: present
+  become: yes

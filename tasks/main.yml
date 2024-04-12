@@ -1,0 +1,10 @@
+---
+
+- name: Platform specific defaults
+  ansible.builtin.include_tasks: vars.yml
+
+- name: Install squid
+  ansible.builtin.include_tasks: install.yml
+
+- name: Configure squid
+  ansible.builtin.include_tasks: config.yml

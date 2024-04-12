@@ -1,0 +1,17 @@
+---
+
+- name: Start squid services
+  ansible.builtin.service:
+    name: "{{ item }}"
+    enabled: yes
+  become: yes
+  loop: "{{ squid_services }}"
+
+- name: Create custom configuration
+  ansible.builtin.template:
+    src: squid.conf.j2
+    dest: "{{ squid_conf }}"
+    owner: root
+    group: "{{ squid_group }}"
+    mode: "0640"
+  notify: Restart squid
