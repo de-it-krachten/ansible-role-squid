@@ -35,8 +35,9 @@ Supported platforms
 - Debian 12 (Bookworm)
 - Ubuntu 20.04 LTS
 - Ubuntu 22.04 LTS
-- Fedora 37
-- Fedora 38
+- Ubuntu 24.04 LTS
+- Fedora 39
+- Fedora 40
 
 Note:
 <sup>1</sup> : no automated testing is performed on these platforms
@@ -59,6 +60,12 @@ squid_services:
 squid_conf: /etc/squid/squid.conf
 </pre></code>
 
+### defaults/family-Debian.yml
+<pre><code>
+# UNIX group
+squid_group: root
+</pre></code>
+
 ### defaults/family-RedHat.yml
 <pre><code>
 # UNIX group
@@ -69,12 +76,6 @@ squid_group: squid
 <pre><code>
 # UNIX group
 squid_group: squid
-</pre></code>
-
-### defaults/family-Debian.yml
-<pre><code>
-# UNIX group
-squid_group: root
 </pre></code>
 
 
