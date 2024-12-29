@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/de-it-krachten/ansible-role-squid/compare/v1.1.0...v1.2.0) (2024-12-29)
+
+
+### Features
+
+* Update supported platforms & CI ([6fe65d5](https://github.com/de-it-krachten/ansible-role-squid/commit/6fe65d5adace5c08451d9264b34be279e9d322b8))
+
 # [1.1.0](https://github.com/de-it-krachten/ansible-role-squid/compare/v1.0.0...v1.1.0) (2024-06-03)
 
 
