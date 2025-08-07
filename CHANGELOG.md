@@ -1,3 +1,14 @@
+# [1.3.0](https://github.com/de-it-krachten/ansible-role-squid/compare/v1.2.0...v1.3.0) (2025-08-07)
+
+
+### Features
+
+* Add support for AlmaLinux 10 ([56e7a24](https://github.com/de-it-krachten/ansible-role-squid/commit/56e7a2419930ff9e099abb70a27a9d52582f0d72))
+* Add support for Debian 13 (Trixie) ([0ed8d53](https://github.com/de-it-krachten/ansible-role-squid/commit/0ed8d5311c37c9ab0df3fb56aefdc2097b927322))
+* Add support for OracleLinux 10 ([a248c53](https://github.com/de-it-krachten/ansible-role-squid/commit/a248c536b42142a343e5368a24dc285f22a642a1))
+* Add support for Red Hat Enterprise Linux 10 ([64552b2](https://github.com/de-it-krachten/ansible-role-squid/commit/64552b2c58f8cb71a893a715ad580a4e561d6a86))
+* Add support for RockyLinux 10 ([db2ee39](https://github.com/de-it-krachten/ansible-role-squid/commit/db2ee39db2f8d2fa3882f55391475ef00015a66c))
+
 # [1.2.0](https://github.com/de-it-krachten/ansible-role-squid/compare/v1.1.0...v1.2.0) (2024-12-29)
 
 
