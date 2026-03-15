@@ -1,3 +1,13 @@
+# [1.4.0](https://github.com/de-it-krachten/ansible-role-squid/compare/v1.3.0...v1.4.0) (2026-03-15)
+
+
+### Features
+
+* Added support for Fedora 43 ([41754c3](https://github.com/de-it-krachten/ansible-role-squid/commit/41754c3075cc74ca9ef6eee0466feb8564799a32))
+* Drop support for Fedora 41 ([8125ce8](https://github.com/de-it-krachten/ansible-role-squid/commit/8125ce8a73ba9e1528b704991cd0773e760b03af))
+* Drop support for openSUSE Leap 15 ([c742bf2](https://github.com/de-it-krachten/ansible-role-squid/commit/c742bf240716fde99188bd9308e5b9390a0f4c9f))
+* Drop support for SUSE Linux Enterprise 15 ([d953de3](https://github.com/de-it-krachten/ansible-role-squid/commit/d953de398817dc4af0f1f0c13f4c3b9ee530d94c))
+
 # [1.3.0](https://github.com/de-it-krachten/ansible-role-squid/compare/v1.2.0...v1.3.0) (2025-08-07)
 
 
