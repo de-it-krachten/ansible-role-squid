@@ -1,3 +1,17 @@
+# [1.5.0](https://github.com/de-it-krachten/ansible-role-squid/compare/v1.4.0...v1.5.0) (2026-07-26)
+
+
+### Bug Fixes
+
+* Standarize vars.yml ([045776b](https://github.com/de-it-krachten/ansible-role-squid/commit/045776bb3bc89932265b59bc8e0559fe142ca258))
+
+
+### Features
+
+* Added support for Fedora 44 ([d70b5ca](https://github.com/de-it-krachten/ansible-role-squid/commit/d70b5ca6ba4fdfdacde0caad72cf43782c9c0d09))
+* Added support for Ubuntu 26.04 LTS ([baadb3e](https://github.com/de-it-krachten/ansible-role-squid/commit/baadb3e396dd8429181c1248a7e079fc77edce00))
+* Drop support for Fedora 42 ([6f8628e](https://github.com/de-it-krachten/ansible-role-squid/commit/6f8628e4214ce99635027ca17b7fa1830e50ca33))
+
 # [1.4.0](https://github.com/de-it-krachten/ansible-role-squid/compare/v1.3.0...v1.4.0) (2026-03-15)
 
 
