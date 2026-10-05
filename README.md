@@ -59,6 +59,9 @@ squid_packages:
 squid_services:
   - squid
 
+# Main configuration file template
+squid_conf_template: squid.conf.j2
+
 # Main configuration file
 squid_conf: /etc/squid/squid.conf
 </pre></code>
