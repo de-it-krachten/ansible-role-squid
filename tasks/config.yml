@@ -7,11 +7,21 @@
   become: yes
   loop: "{{ squid_services }}"
 
-- name: Create custom configuration
+- name: Create custom default configuration file
   ansible.builtin.template:
     src: "{{ squid_conf_template }}"
     dest: "{{ squid_conf }}"
     owner: root
     group: "{{ squid_group }}"
     mode: "0640"
+  notify: Restart squid
+
+- name: Create custom additional configuration files
+  ansible.builtin.template:
+    src: "{{ item.src }}"
+    dest: "{{ item.dest }}"
+    owner: root
+    group: "{{ squid_group }}"
+    mode: "0640"
+  loop: "{{ squid_conf_templates | default([]) }}"
   notify: Restart squid
