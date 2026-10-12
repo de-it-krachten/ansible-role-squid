@@ -31,7 +31,6 @@ Supported platforms
 - AlmaLinux 8
 - AlmaLinux 9
 - AlmaLinux 10
-- Debian 11 (Bullseye)
 - Debian 12 (Bookworm)
 - Debian 13 (Trixie)
 - Ubuntu 20.04 LTS
@@ -58,6 +57,9 @@ squid_packages:
 # services
 squid_services:
   - squid
+
+# Main configuration file template
+squid_conf_template: squid.conf.j2
 
 # Main configuration file
 squid_conf: /etc/squid/squid.conf
