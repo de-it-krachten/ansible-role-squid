@@ -1,3 +1,16 @@
+# [1.6.0](https://github.com/de-it-krachten/ansible-role-squid/compare/v1.5.0...v1.6.0) (2026-10-30)
+
+
+### Bug Fixes
+
+* Add support for multiple conf files ([9497766](https://github.com/de-it-krachten/ansible-role-squid/commit/94977662cd3f477894b3607b852f5f68b95d3312))
+* Make it possible to use custom template ([6e6ecb3](https://github.com/de-it-krachten/ansible-role-squid/commit/6e6ecb372086679642c92bd7243910b5bf68b64a))
+
+
+### Features
+
+* Drop support for Debian 11 (Bullseye) ([fcb095c](https://github.com/de-it-krachten/ansible-role-squid/commit/fcb095c7b7dc4321d9d6073b1dad95bf1cd419b2))
+
 # [1.5.0](https://github.com/de-it-krachten/ansible-role-squid/compare/v1.4.0...v1.5.0) (2026-07-26)
 
 
